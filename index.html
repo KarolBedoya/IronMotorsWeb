@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronMotors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- bootstrap Iconos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+       
+        <div class="container">
+            <div class="text-end">
+                <img src="img/Logo.png" width="200" alt="">
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-start">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Marcas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- aqui agregue un dropdown divider para dividir cada seccion del menú -->
+                          <li><a class="dropdown-item" href="#">Yamaha</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Suzuki</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Benelli</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Akt</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Aprilla</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Triump</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Honda</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Kawasaki</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Cf-Moto</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Bajaj</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Ktm</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Victory</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">BMW</a></li>
+                        </ul>
+                      </li>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <!-- Los botonoes de abajo del carrusel -->
+            <button type="button" data-bs-target="#carouselE1" 
+                    data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"
+            ></button>
+
+            <button type="button" data-bs-target="#carouselE1"
+            data-bs-slide-to="1" 
+            aria-label="Slide 2"
+            ></button>
+
+            <button type="button" data-bs-target="#carouselE1"
+            data-bs-slide-to="2" 
+            aria-label="Slide 3"
+            ></button>
+
+        </div>
+            
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="img/car1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Los mejores motores</h5>
+                    <p class="fondo">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Incidunt animi iure reiciendis accusamus aliquid odio eveniet,
+                        quidem molestiae dignissimos atque magnam pariatur, 
+                        aliquam architecto facere corporis sit tenetur similique maxime.
+                    </p>
+                    <p><a href="#" class="btn btn-primary mt-3">Leer mas</a></p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <!-- contenido del carrusel -->
+                <img src="img/car2.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Los mejores motores</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Incidunt animi iure reiciendis accusamus aliquid odio eveniet,
+                        quidem molestiae dignissimos atque magnam pariatur, 
+                        aliquam architecto facere corporis sit tenetur similique maxime.
+                    </p>
+                    <p><a href="#" class="btn btn-primary mt-3">Leer mas</a></p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/car3.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Los mejores motores</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Incidunt animi iure reiciendis accusamus aliquid odio eveniet,
+                        quidem molestiae dignissimos atque magnam pariatur, 
+                        aliquam architecto facere corporis sit tenetur similique maxime.
+                    </p>
+                    <p><a href="#" class="btn btn-primary mt-3">Leer mas</a></p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE1"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previas</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE1"
+                data-bs-slide="next">
+
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    
+    <section class="service">
+
+        <div class="container">
+            <h5>Resistentes</h5>
+            <div class="row">
+                <!-- una fila con tres columnas -->
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <!-- como abarcaría dependiendo las pantallas -->
+                    <div class="card text-white text-center bg-car1 pb-2">
+                        <div class="card-body">
+                            <h3>Yamaha</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio earum voluptatem repellat aperiam, repudiandae impedit nesciunt dignissimos temporibus,
+                                cum perferendis perspiciatis laudantium laboriosam officiis quasi! Ab ullam hic earum aliquam?
+                            </p>
+                            <button class="btn bg-primary text-white">Leer mas</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <!-- como abarcaría dependiendo las pantallas -->
+                    <div class="card text-white text-center bg-car2 pb-2">
+                        <div class="card-body">
+                            <h3>Suzuki</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio earum voluptatem repellat aperiam, repudiandae impedit nesciunt dignissimos temporibus,
+                                cum perferendis perspiciatis laudantium laboriosam officiis quasi! Ab ullam hic earum aliquam?
+                            </p>
+                            <button class="btn bg-primary text-white">Leer mas</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <!-- como abarcaría dependiendo las pantallas -->
+                    
+                    <div class="card text-white text-center bg-car3 pb-2">
+                        <div class="card-body">
+                            <h3>Honda</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Optio earum voluptatem repellat aperiam, repudiandae impedit nesciunt dignissimos temporibus,
+                                cum perferendis perspiciatis laudantium laboriosam officiis quasi! Ab ullam hic earum aliquam?
+                            </p>
+                            <button class="btn bg-primary text-white">Leer mas</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-icons">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-12 col-lg-4 box-icons">
+                    <div class="d-flex aling-items-center">
+                        <i class="bi bi-airplane"></i>
+                        <!-- aqui se llama un icono de bootstrap-->
+                        <div class="ms-4">
+                            <h3>Envios nacionales e internacionales</h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 box-icons">
+                    <div class="d-flex aling-items-center">
+                        <i class="bi bi-award-fill"></i>
+                        <!-- aqui se llama un icono de bootstrap-->
+                        <div class="ms-4">
+                            <h3>Garantía</h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 box-icons">
+                    <div class="d-flex aling-items-center">
+                        <i class="bi bi-hammer"></i>
+                        <!-- aqui se llama un icono de bootstrap-->
+                        <div class="ms-4">
+                            <h3>Repuestos</h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="product">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="secction-header text-center pb-5">
+                        <h2>Si la quieres, la tienes, y si la tienes, no dejaras de quererla</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            <br> Modi quas adipisci voluptatem magni autem recusandae inventore harum? 
+                            <br> Dolor, similique quas?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="img/pr2.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Yamaha R6</h5>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Magnam quasi esse optio aliquam iure laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores explicabo nemo incidunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="img/pr1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Suzuki GSX-R750</h5>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Magnam quasi esse optio aliquam iure laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores explicabo nemo incidunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="img/pr3.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Benelli TRK 800</h5>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Magnam quasi esse optio aliquam iure laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores explicabo nemo incidunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="img/pr4.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Aprilla RSV4 RR</h5>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Magnam quasi esse optio aliquam iure laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores explicabo nemo incidunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="img/pr5.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">CFMoto 450SR</h5>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Magnam quasi esse optio aliquam iure laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores explicabo nemo incidunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="img/pr6.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">BMW GS 1250</h5>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Magnam quasi esse optio aliquam iure laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores explicabo nemo incidunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="img/pr7.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kawasaki Z-800</h5>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Magnam quasi esse optio aliquam iure laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores explicabo nemo incidunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="img/pr8.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">KTM RC-200</h5>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Magnam quasi esse optio aliquam iure laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores explicabo nemo incidunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Una misma pasión</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+                         Delectus, illo omnis in magnam hic saepe ipsum nostrum optio om odit!
+                    </p>
+
+                    <div>
+                        <img src="img/mo1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+
+        <div class="container md-3 mb-lg-5">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="secction-header text-center pb-2 pb-lg-5">
+                        <h2>Contacto</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+                             Delectus, illo omnis in magnam hic saepe ipsum nostrum optio at inventore aut facilis <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates doloremque non ad eveniet, earum voluptatum cum? Voluptatum nisi totam tempore. <br> architecto consequuntur explicabo facere blanditiis unde earum odit!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="col-12 col-mb-12 col-lg-6 pt-4 pb-4">
+                    <form actions="#" class="bg-light p-4 m-auto shadow-sm">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Nombre" type="text" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Email" type="email" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3" required>
+                                    </textarea>
+
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block mt-3 " type="button">Enviar</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">Todos los derechos reservados</p>
+            <img src="img/Logo.png" width="180" alt="">
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
